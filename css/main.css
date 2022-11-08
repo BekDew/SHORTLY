@@ -1,0 +1,388 @@
+/* poppins-500 - latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("../fonts/poppins-v20-latin-500.woff")
+        format("woff"); /* Modern Browsers */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("../fonts/poppins-v20-latin-700.woff")
+        format("woff"); /* Modern Browsers */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  body {
+    font-family: "Poppins";
+    font-weight: 700;
+    background-color: #f2f2f2;
+  }
+  
+  /************************** Header styles start **************************/
+  .site-header {
+    background-color: #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  
+  .container {
+    width: 1138px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-header__start {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-header__logo-img {
+    width: 120px;
+    height: 32px;
+    margin-right: 45px;
+  }
+  
+  .site-nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 265px;
+  }
+  
+  .site-nav__link {
+    font-size: 15px;
+    line-height: 22px;
+    color: #9e9aa8;
+  }
+  
+  .site-header__end-login {
+    font-size: 15px;
+    line-height: 22px;
+    color: #9e9aa8;
+    margin-right: 37px;
+  }
+  
+  .site-header__end-sign-up {
+    display: inline-block;
+    background-color: #2bd0d0;
+    border-radius: 28px;
+    padding-top: 9px;
+    padding-right: 23px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+  
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+  }
+  /************************** Header styles end **************************/
+  
+  /************************** Main styles start **************************/
+  .site-main{
+     
+  }
+  
+  /* Hero section styles start */
+   .hero-section{
+     position: relative;
+      background-color: #fff;
+      background-image: url("/image/hero-bg.png");
+      background-repeat: no-repeat;
+      background-position: calc(50% + 520px) calc(50% - 60px);
+      padding-top: 91px;
+      padding-bottom: 222px;
+  }
+  
+  .hero-section__content{
+      width: 565px;
+
+  }
+  
+  .hero-section__content-title{
+      font-size: 80px;
+      line-height: 90px;
+      letter-spacing: -2px;
+      color: #34313D;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+  
+  .hero-section__content-desc{
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 36px;
+      letter-spacing: 0.15px;
+      color: #9E9AA8;    
+      margin-top: 0;
+      margin-bottom: 38px;
+  }
+  
+  .hero-section__content-get-started{
+      display: inline-block;
+      background-color: #2BD0D0;
+      border-radius: 28px;
+      padding-top: 14px;
+      padding-right: 40px;
+      padding-bottom: 12px;
+      padding-left: 40px;
+  
+      font-size: 20px;
+      line-height: 30px;
+      color: #FFFFFF;
+  }
+  
+  /* Hero section styles end */
+  /***************** article part start ******************/
+  article {
+    position: absolute;
+    top: 590px;
+    background-image: url("/image/shorten-back.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1100px;
+    padding: 52px 65px 52px 64px;
+  }
+  .article_big_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aticle_big_search {
+    display: inline-block;
+    padding: 15px 32px;
+    width: 769px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #34313D;
+  }
+.article_second_search {
+    margin-left: 24px;
+    padding: 19px 38px 18px 38px;
+    background: #2BD0D0;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+  /***************** article part end ******************/
+
+/* *********** section advenced start ************ */
+.section_advenced {
+    margin-top: 204px;
+    margin-bottom: 350px;
+}
+
+.advenced_title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 250px;
+}
+.advenced_list {
+    background-image: url(/image/line.png);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 1110px;
+    height: 8px;
+}
+
+.title_advenced{
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -1px;
+
+}
+.advanced_desc {
+    width: 540px;
+    height: 60px;
+    margin-left: 300px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.122727px;
+    color: #9E9AA8;
+}
+
+.advenced_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advenced_item {
+    width: 350px;
+    height: 267px;
+    padding-left: 32px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.Brand::before{
+    margin-top: -150px;
+    content: "";
+    display: inline-block;
+    background-image: url(/image/rost.png);
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 88px;
+    background-size: 100%;
+    position: absolute;
+}
+.advenced_item2 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 380px;
+    width: 350px;
+    height: 267px;
+    padding-left: 32px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.advenced_item3 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 760px;
+    width: 350px;
+    height: 267px;
+    padding-left: 32px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.Brand {
+    padding-top: 77px;
+    font-size: 22px;
+    line-height: 33px;
+    color: #34313D;
+}
+.pre_title {
+    padding-top: 15px;
+    width: 286px;
+    height: 104px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #9E9AA8;
+}
+
+/* *********** section advenced start ************ */
+
+.last_section {
+    padding-top: 57px;
+    padding-bottom: 56px;
+    background-image: url(/image/back-img.png);
+}
+.section_tetx {
+    flex-direction: column;
+}
+.last_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+.last_click {
+    display: inline-block;
+    padding: 14px 40px 12px 40px;
+    margin-left: 470px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #2BD0D0;
+    border-radius: 28px;
+}
+/* ************** foter start ********** */
+footer {
+    padding: 71px 0px 71px 0px;
+    background: #232127;
+}
+.foter_part_big_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_white:hover {
+    box-shadow: 0px 0px 3px 5px blue;
+}
+.foter_1_list {
+    margin-top: -20px;
+    column-gap: 15px;
+}
+.foter_1_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+
+}
+.item_title1 {
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.234375px;
+    color: #BFBFBF;
+}
+.icon_soc_net:hover {
+    box-shadow: 0px 0px 3px 5px blue;
+}
+.icon_soc_net {
+    margin-left: 24px;
+}
+
+
+
+
+
+
+/* ************** foter start ********** */
+
+  /************************** Main styles end **************************/
+  
